@@ -26,3 +26,16 @@ body {
 .img-flex {
   max-width: 100%
 }
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  max-width: 15em;
+  padding: 1rem;
+  border-radius: 4px;
+}
