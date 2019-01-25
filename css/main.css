@@ -6,8 +6,7 @@
 
 html {
   box-sizing: border-box;
-  line-height: 1.3;
-  font-family: "Roboto Slab", serif;
+  font: normal 100%/1.3 "Roboto Slab", serif;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -24,18 +23,23 @@ body {
 }
 
 .img-flex {
-  max-width: 100%
+  width: 100%;
+  display: block;
 }
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 figcaption {
-  color: white;
   background-color: black;
-  opacity: 0.5;
+  opacity: .5;
+  color: white;
   max-width: 15em;
   padding: 1rem;
   border-radius: 4px;
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
 }
